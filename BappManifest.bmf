@@ -1,0 +1,12 @@
+Uuid: 01376d8325c846b988730e9417016039
+ExtensionType: 2
+Name: Proxy Action Rules
+RepoName: proxy-action-rules
+ScreenVersion: 1.0
+SerialVersion: 0
+MinPlatformVersion: 0
+ProOnly: False
+Author: James Morris
+ShortDescription: Automatically forward, intercept and drop requests based on rules.
+EntryPoint: Active AutoProxy.py
+BuildCommand: 

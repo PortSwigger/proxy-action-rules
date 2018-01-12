@@ -74,7 +74,7 @@ class BurpExtender(IBurpExtender, ITab, IProxyListener, IMessageEditorController
 		self._helpers = callbacks.getHelpers()
 
 		# set the extension name
-		self._EXTENSION_NAME = "Active AutoProxy"
+		self._EXTENSION_NAME = "Proxy Action Rules"
 
 		# set the extension version
 		self._EXTENSION_VERSION = "1.0"

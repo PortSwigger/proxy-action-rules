@@ -1,37 +1,15 @@
 <p>This extension can automatically forward, intercept, and drop proxy requests while actively displaying proxy log information and centralizing list management. This extension can also block ads, tracking sites, malware sites, etc. The state of the extension including the settings, filters, and data can easily be exported and imported.</p>
 
 <p>Main features include:</p>
+
 <ul>
-	<li>Automatically drop specific requests while browsing the web. (Proxy Intercept turned off.)</li>
-	<li>Automatically drop specific requests while intercepting requests to all other hosts. (Proxy Intercept turned on.)</li>
-	<li>Automatically forward specific requests while intercepting all other hosts. (Proxy Intercept turned on.)</li>
-	<li>Automatically intercept specific requests while browsing the web. (Proxy Intercept turned off.)</li>
-	<li>Automatically block specific requests to hosts that are known for ads, tracking, malware, etc.</li>
-	<li>Automatically flag specific requests for later review if they match the specified criteria.</li>
-	<li>Centralize the location of the lists that have to be managed to forward, intercept, and drop requests.</li>
-	<li>Actively view information from the proxy logs.</li>
+<li>Automatically drop specific requests while browsing the web. (Proxy Intercept turned off.)</li>
+<li>Automatically drop specific requests while intercepting requests to all other hosts. (Proxy Intercept turned on.)</li>
+<li>Automatically forward specific requests while intercepting all other hosts. (Proxy Intercept turned on.)</li>
+<li>Automatically intercept specific requests while browsing the web. (Proxy Intercept turned off.)</li>
+<li>Automatically block specific requests to hosts that are known for ads, tracking, malware, etc.</li>
+<li>Automatically flag specific requests for later review if they match the specified criteria.</li>
+<li>Centralize the location of the lists that have to be managed to forward, intercept, and drop requests.</li>
+<li>Actively view information from the proxy logs.</li>
 </ul>
 
-<p>Other features that have been added include:</p>
-<ul>
-	<li>A combination of the main features. For example, intercept requests to abc.com for inspection if they have the word password within the request, forward requests to test.abc.com even if they have the word password within the request, and drop all other requests that are not to abc.com.</li>
-	<li>Keep track of unique hosts that had requests.</li>
-	<li>Filter the proxy logs by the method, protocol, port, host, referrer, URL, path, request, and response.</li>
-	<li>Easily save/restore the settings and data for the extension.</li>
-	<li>Clear settings, data, and filters from the extension.</li>
-	<li>Undo the most recent clearing of settings and filters, in case they are accidentally cleared.</li>
-	<li>Test settings and regex to see the outcome of the extensions without having to actually visit the hosts.</li>
-	<li>Easily copy settings back and forth between the main tab and test tab.</li>
-	<li>Easily download multiple block lists containing hosts that are known for ads, tracking, malware, etc.</li>
-</ul>
-
-<p>Limitations:</p>
-<ul>
-	<li>This extension intercepts requests before they hit the Proxy tab. While it can override some settings, it does not override all settings within Burp.</li>
-</ul>
-
-<p>For basic details about the extension, see the AutoProxy Details tab within the main AutoProxy tab.</p>
-<p>For additional details about the extension, see the GitHub page.</p>
-
-<p>This extension requires Burp Suite and Jython standalone.</p>
-<p>This extension does not require Burp Suite Professional.</p>

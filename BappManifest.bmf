@@ -3,10 +3,10 @@ ExtensionType: 2
 Name: Proxy Action Rules
 RepoName: proxy-action-rules
 ScreenVersion: 1.0
-SerialVersion: 0
+SerialVersion: 6
 MinPlatformVersion: 0
 ProOnly: False
-Author: James Morris
+Author: James Morris (@jamesm0rr1s), Central InfoSec
 ShortDescription: Automatically forward, intercept and drop requests based on rules.
 EntryPoint: Active AutoProxy.py
 BuildCommand: 
